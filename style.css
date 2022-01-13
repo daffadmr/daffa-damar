@@ -1,0 +1,250 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6,
+button, input, select, textarea {
+    font-family: 'Montserrat';
+}
+::-webkit-input-placeholder {
+    font-family: 'Montserrat';
+}
+:-moz-placeholder {
+    font-family: 'Montserrat';
+}
+::-moz-placeholder {
+    font-family: 'Montserrat';
+}
+:-ms-input-placeholder {
+    font-family: 'Montserrat';
+}
+
+body {
+    background-color: #f0f2f5;
+    width: 100%;
+    min-height: 100vh;
+    font-family: 'Montserrat';
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+section {
+    padding-top: 5rem;
+}
+
+a {
+    transition: all 0.2s linear;
+}
+
+a:hover {
+    color: #357099;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+.container {
+    margin: 0 auto;
+    width: 960px;
+}
+
+nav {
+    top: 0;
+    position: sticky;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    height: 50px;
+    align-items: center;
+    background-color: #1F2833;
+}
+
+.logo {
+    letter-spacing: 0.8px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    width: 50%;
+    justify-content: end;
+}
+
+nav a {
+    text-decoration: none;
+    color: white
+}
+
+nav a:hover {
+    color: #719bce;
+}
+
+nav li {
+    padding-right: 20px;
+    font-size: 14px;
+}
+
+.hamburger {
+    display: none;
+    color: white;
+    flex-direction: column;
+    height: 15px;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.hamburger span {
+    display: block;
+    width: 20px;
+    height: 3px;
+    background-color: white;
+    border-radius: 2px;
+    transition: all 0.7s;
+}
+
+.span1 {
+    transform-origin: 0 0;
+}
+
+.span3 {
+    transform-origin: 0 100%;
+}
+
+.change .span1 {
+    transform: rotate(45deg) translate(-1px, -1px);
+}
+
+.change .span2 {
+    opacity: 0;
+}
+
+.change .span3 {
+    transform: rotate(-45deg) translate(0.5px, 0);
+}
+
+.header {
+    background-color: #a6b7c7;
+    padding-top: 100px;
+    justify-content: center;
+    padding-bottom: 130px;
+}
+
+.header-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 30px;
+}
+
+.header-item img {
+    width: 250px;
+    border-radius: 50%;
+    padding-bottom: 20px;
+}
+
+.sosmed a{
+    color: inherit;
+    margin: 10px;
+}
+
+.sosmed a:hover{
+    color: #719bce;
+}
+
+.about {
+    display: flex;
+    margin-top: 20px;
+    text-align: center;
+    padding-top: 100px;
+    margin-bottom: 100px;
+}
+
+.about-item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.project {
+    display: flex;
+    text-align: center;
+    padding-top: 100px;
+    margin-bottom: 100px;
+}
+
+.project-item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.card {
+    width: 40%;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    margin: 30px;
+}
+
+.card img {
+    margin-bottom: 5px;
+}
+
+.project-item img {
+    width: 100%;
+    padding: 5px 0;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+form{
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.field {
+    width: 50%;
+    padding: 15px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: none;
+}
+
+button{
+    padding: 10px;
+    border-radius: 25%;
+}
+
+footer {
+    margin-top: auto;
+    color: white;
+    width: 100%;
+    background-color: #1F2833;
+}
+
+.footer-item {
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-item img {
+    width: 5%;
+}
