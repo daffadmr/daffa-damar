@@ -30,9 +30,9 @@ body {
     flex-direction: column;
 }
 
-section {
+/* section {
     padding-top: 5rem;
-}
+} */
 
 a {
     transition: all 0.2s linear;
@@ -157,10 +157,10 @@ nav li {
 }
 
 .about {
+    padding-top: 100px;
     display: flex;
     margin-top: 20px;
     text-align: center;
-    padding-top: 100px;
     margin-bottom: 100px;
 }
 
@@ -175,7 +175,6 @@ nav li {
 .project {
     display: flex;
     text-align: center;
-    padding-top: 100px;
     margin-bottom: 100px;
 }
 
