@@ -60,6 +60,7 @@ nav {
     height: 50px;
     align-items: center;
     background-color: #1F2833;
+    font-weight: 500;
 }
 
 .logo {
@@ -239,12 +240,17 @@ footer {
 }
 
 .footer-item {
-    padding: 20px;
+    margin: 40px 0px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    flex-direction: column;
 }
 
-.footer-item img {
-    width: 5%;
+.sosmed{
+    margin-top: 20px;
+}
+
+.sosmed a{
+    margin: 0 40px;
 }
