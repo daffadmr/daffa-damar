@@ -3,9 +3,9 @@
         width: 550px;
     }
 
-    nav ul {
+    nav{
         justify-content: space-between;
-        width: 60%;
+        padding: 0 30px;
     }
 
     .header {
@@ -16,6 +16,36 @@
         width: 50%;
         border-radius: 50%;
         padding-bottom: 20px;
+    }
+    
+    .hamburger {
+        display: flex;
+        z-index: 2;
+    }
+
+    nav ul {
+        position: absolute;
+        flex-direction: column;
+        right: 0;
+        top: 0;
+        align-items: center;
+        height: 100vh;
+        width: 100%;
+        background-color: rgba(31, 40, 51, 0.9);
+        justify-content: space-evenly;
+        z-index: 1;
+        transform: translateY(-100%);
+        transition: all 0.5s;
+    }
+
+    nav ul li {
+        margin-top: -100px;
+        padding: 0px;
+    }
+
+    nav ul.slide {
+        opacity: 1;
+        transform: translateY(0);
     }
 
     .header-item svg {
@@ -99,6 +129,10 @@
         padding: 0px;
         width: 100%;
         flex-direction: column;
+    }
+
+    .about-item-1{
+        padding: 0 20px;
     }
 
     .project-item {
